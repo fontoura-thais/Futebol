@@ -11,5 +11,5 @@
     flex-grow: 1;
     width: 403px;
     flex-basis: calc(33%-6rem);
-    
+    margin: 1rem 1rem;
 }
