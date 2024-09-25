@@ -1,4 +1,8 @@
 .conteudo{
     display: flex;
-    
+
+}
+.cartao{
+    background-color: black;
+    justify-content: space-between;
 }
