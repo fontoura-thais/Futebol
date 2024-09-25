@@ -10,5 +10,6 @@
     height: 344px;
     flex-grow: 1;
     width: 403px;
+    flex-basis: calc(33%-6rem);
     
 }
