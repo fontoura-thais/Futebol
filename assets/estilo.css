@@ -6,10 +6,11 @@
 .cartao{
     background-color: black;
     color: white;  
-    border-radius: 56px;
+    border-radius: 50px;
     height: 344px;
     flex-grow: 1;
     width: 403px;
     flex-basis: calc(33%-6rem);
     margin: 1rem 1rem;
+
 }
