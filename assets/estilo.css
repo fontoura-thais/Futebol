@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .conteudo{
     display: flex;
     justify-content: space-between;
@@ -12,10 +16,32 @@
     width: 403px;
     flex-basis: calc(33%-6rem);
     margin: 1rem 1rem;
+    text-align: center;
+    font-size: 28px;
+
+}
+.cartao:hover .cartao--conteudo{
+    background-color: red;
+    transform: rotateY(180deg);
+
+}
+
+.cartao--resposta{
+    font-size: 20px;
+}
+.cartao--conteudo{
+    border-radius: 20px;
+    background-color: black;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
+}
+.cartao--pergunta, .cartao--resposta{
+    backface-visibility: hidden;
 
 }
 .cartao--resposta{
-    font-size: 20px;
+    transform: rotateY('180edg');
 }
 footer{
     background-color: black;
