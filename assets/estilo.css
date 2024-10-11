@@ -8,9 +8,8 @@
 
 }
 .cartao{
-    background-color: black;
+
     color: white;  
-    border-radius: 50px;
     height: 344px;
     flex-grow: 1;
     width: 403px;
@@ -41,7 +40,7 @@
 
 }
 .cartao--resposta{
-    transform: rotateY('180edg');
+    transform: rotateY(180deg);
 }
 footer{
     background-color: black;
