@@ -1,6 +1,6 @@
 alert("Futebolas")
 function criarCartao(pergunta,resposta){
-    console.log("pergunta,resposta")
+   let conteudo = document.getElementById("conteudo")
 
 }
 criarCartao(1,2)
