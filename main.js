@@ -1,4 +1,4 @@
-alert("Futebolas")
+
 function criarCartao(pergunta,resposta){
    let conteudo = document.getElementById("conteudo")
 let cartao = document.createElement('article')
