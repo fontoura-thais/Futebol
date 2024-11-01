@@ -6,8 +6,8 @@ cartao.classList = 'cartao'
 
 
 cartao.innerHTML = `<div class="cartao--conteudo">
-        <div class="cartao--pergunta"><p>Quem foi o campeão da copa paulista de 2021 ? </p></div>
-         <div class="cartao--resposta"><p>O campeonato teve como campeão o São Paulo</p></div>
+        <div class="cartao--pergunta"><p>${pergunta}</p></div>
+         <div class="cartao--resposta"><p>${resposta}</p></div>
         </div>`
 
 conteudo.appendChild(cartao)
