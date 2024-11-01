@@ -14,7 +14,7 @@
     height: 344px;
     flex-grow: 1;
     width: 403px;
-    flex-basis: calc(33%-6rem);
+    flex-basis: calc(33% - 6rem);
     margin: 1rem 1rem;
     text-align: center;
     font-size: 28px;
